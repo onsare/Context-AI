@@ -17,7 +17,7 @@ export default function Hero() {
             className='relative bottom-[50px] left-0 w-full h-full object-cover'
           />
           <div className='flex flex-col items-center justify-center space-y-4 relative bottom-[100px] lg:bottom-[300px] z-10 '>
-            <h1 className='text-[rgba(255,255,255,1)]  font-normal text-[44px]  lggit s:text-[72px]  leading-[42px] lg:leading-[76px] tracking-[-2%] '>
+            <h1 className='text-[rgba(255,255,255,1)]  font-normal text-[44px] lg:text-[72px]  leading-[42px] lg:leading-[76px] tracking-[-2%] '>
               AI-Powered research and academic writing made easy.{" "}
             </h1>
             <p className=' text-[rgba(255,255,255,0.64)]  font-normal text-[17px] lg:text-[14px]  lg:leading-[27px] mt-4 max-w-[639px]'>
