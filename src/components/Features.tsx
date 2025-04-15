@@ -89,7 +89,7 @@ export default function Features() {
             </div>
             <div>
               <Image
-                src='/frames/frame-1.png'
+                src='/static/frames/frame-1.png'
                 alt='Frame 1'
                 width={332}
                 height={229}
@@ -112,7 +112,7 @@ export default function Features() {
             </div>
             <div className='w-1/2'>
               <Image
-                src='/frames/frame-2.png'
+                src='/static/frames/frame-2.png'
                 alt='Frame'
                 width={331}
                 height={380}
@@ -137,7 +137,7 @@ export default function Features() {
             </div>
             <div>
               <Image
-                src='/frames/frame-4.png'
+                src='/static/frames/frame-4.png'
                 alt='Frame'
                 width={331}
                 height={200}
@@ -160,7 +160,7 @@ export default function Features() {
             </div>
             <div className='w-1/2'>
               <Image
-                src='/frames/frame-3.png'
+                src='/static/frames/frame-3.png'
                 alt='Frame'
                 width={331}
                 height={380}
@@ -189,7 +189,7 @@ export default function Features() {
         <div className='flex w-full justify-between items-center text-center  border-t border-b border-[#1515170F]'>
           <div className='flex flex-col items-center p-5 border-r border-[#1515170F]'>
             <Image
-              src='/frames/frame-5.png'
+              src='/static/frames/frame-5.png'
               alt='Frame'
               width={483}
               height={380}
@@ -214,7 +214,7 @@ export default function Features() {
           </div>
           <div className='flex flex-col items-cente p-5'>
             <Image
-              src='/frames/frame-6.png'
+              src='/static/frames/frame-6.png'
               alt='Frame'
               width={381}
               height={380}
@@ -257,7 +257,7 @@ export default function Features() {
 
           <div>
             <Image
-              src='/frames/frame-7.png'
+              src='/static/frames/frame-7.png'
               alt='Frame'
               width={532}
               height={522}
