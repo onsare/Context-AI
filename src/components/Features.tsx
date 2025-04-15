@@ -198,8 +198,8 @@ export default function Features() {
             <div className='max-w-[350px] '>
               <div className='text-[rgba(0,67,89,1)] leading-[31px] font-medium text-[21px] flex gap-2 items-center '>
                 <Image
-                  src='/icon-wand.svg'
-                  alt='Frame'
+                  src='/static/icon-wand.svg'
+                  alt='Icon'
                   width={16}
                   height={16}
                   priority
@@ -223,7 +223,7 @@ export default function Features() {
             <div className='max-w-[306px]'>
               <div className='text-[rgba(0,67,89,1)] leading-[31px] font-medium text-[21px] flex items-center gap-2 '>
                 <Image
-                  src='/icon-insight.svg'
+                  src='/static/icon-insight.svg'
                   alt='Frame'
                   width={16}
                   height={16}
