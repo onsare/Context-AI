@@ -25,11 +25,11 @@ export default function Hero() {
               generate structured reports with AI. Spend more time on discovery,
               less on tedious tasks.
             </p>
-            <div className='flex gap-2'>
-              <Button className='rounded bg-transparent border border-white py-2 px-4 text-sm text-white data-[hover]:bg-white-500 data-[hover]:data-[active]:bg-white-700'>
+            <div className='flex flex-col sm:flex-row gap-3 mt-4 w-full justify-center'>
+              <Button className='rounded bg-transparent border border-white py-2 px-4 text-sm text-white data-[hover]:bg-white/10 data-[hover]:data-[active]:bg-white/20'>
                 Log in
               </Button>
-              <Button className='flex items-center gap-2 rounded bg-white py-2 px-4 text-sm text-black data-[hover]:bg-white-500 data-[hover]:data-[active]:bg-white-700'>
+              <Button className='flex items-center justify-center gap-2 rounded bg-white py-2 px-4 text-sm text-black data-[hover]:bg-gray-100 data-[hover]:data-[active]:bg-gray-200'>
                 Book a demo
                 <span aria-hidden='true'>
                   <ChevronRightIcon className='h-4 w-4' />

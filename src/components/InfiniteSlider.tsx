@@ -19,8 +19,8 @@ const InfiniteSlider = () => {
 
   return (
     <div className=' flex items-center justify-center bg-white '>
-      <div className='w-[500%] lg:w-[200%] h-40  overflow-hidden relative max-w-[1300px] mx-auto z-10 bg-white'>
-        <div className='w-[500%] lg:w-[200%] flex items-center h-40 justify-around absolute left-0  gap-0 animate'>
+      <div className='w-[500%] lg:w-[200%] h-30  overflow-hidden relative max-w-[1300px] mx-auto z-10 bg-white'>
+        <div className='w-[500%] lg:w-[200%] flex items-center h-30 justify-around absolute left-0  gap-0 animate'>
           {images.map((img, idx) => {
             return (
               <div key={idx} className={`flex justify-center items-start  `}>

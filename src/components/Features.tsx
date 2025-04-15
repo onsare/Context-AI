@@ -186,17 +186,18 @@ export default function Features() {
           subTitle='Delightfully crafted to help you stay in flow and focus on what you care about - leveraging your data.'
         />
 
-        <div className='flex w-full justify-between items-center text-center  border-t border-b border-[#1515170F]'>
-          <div className='flex flex-col items-center p-5 border-r border-[#1515170F]'>
+        <div className='flex flex-col md:flex-row w-full justify-between items-center text-center border-t border-b border-[#1515170F]'>
+          <div className='flex flex-col items-center p-4 sm:p-5 w-full md:border-r border-[#1515170F]'>
             <Image
               src='/static/frames/frame-5.png'
-              alt='Frame'
+              alt='Automated research assistance'
               width={483}
               height={380}
               priority
+              className='max-w-full h-auto'
             />
-            <div className='max-w-[350px] '>
-              <div className='text-[rgba(0,67,89,1)] leading-[31px] font-medium text-[21px] flex gap-2 items-center '>
+            <div className='max-w-[350px]'>
+              <div className='text-[rgba(0,67,89,1)] leading-tight font-medium text-lg sm:text-xl md:text-[21px] flex gap-2 items-center mt-4'>
                 <Image
                   src='/static/icon-wand.svg'
                   alt='Icon'
@@ -204,64 +205,67 @@ export default function Features() {
                   height={16}
                   priority
                 />
-                <h2>Automated research assistance </h2>
+                <h2>Automated research assistance</h2>
               </div>
-              <p className='text-[rgba(6,30,38,0.64)] leading-[24px] font-normal text-[14px]'>
+              <p className='text-[rgba(6,30,38,0.64)] leading-normal font-normal text-sm sm:text-base md:text-[14px] mt-2'>
                 Spend less time on citations, literature reviews, and formatting
                 with AI-powered tools.
               </p>
             </div>
           </div>
-          <div className='flex flex-col items-cente p-5'>
+
+          <div className='flex flex-col items-center p-4 sm:p-5 w-full border-t md:border-t-0 border-[#1515170F] md:border-l'>
             <Image
               src='/static/frames/frame-6.png'
-              alt='Frame'
+              alt='Faster data driven insights'
               width={381}
               height={380}
               priority
+              className='max-w-full h-auto'
             />
             <div className='max-w-[306px]'>
-              <div className='text-[rgba(0,67,89,1)] leading-[31px] font-medium text-[21px] flex items-center gap-2 '>
+              <div className='text-[rgba(0,67,89,1)] leading-tight font-medium text-lg sm:text-xl md:text-[21px] flex items-center gap-2 mt-4'>
                 <Image
                   src='/static/icon-insight.svg'
-                  alt='Frame'
+                  alt='Icon'
                   width={16}
                   height={16}
                   priority
                 />
                 <h2>Faster data driven insights</h2>
               </div>
-              <p className='text-[rgba(6,30,38,0.64)] leading-[24px] font-normal text-[14px]'>
+              <p className='text-[rgba(6,30,38,0.64)] leading-normal font-normal text-sm sm:text-base md:text-[14px] mt-2'>
                 Analyze and visualize data with AI, reducing manual effort.
               </p>
             </div>
           </div>
         </div>
-        <div className='flex justify-between items-center text-center  border-t  border-[#1515170F] pb-10'>
-          <div className='max-w-[372px] flex  flex-col text-left p-10 '>
-            <div className='text-[rgba(0,67,89,1)] leading-[31px] font-medium text-[21px] flex items-center gap-2 '>
+        <div className='flex flex-col md:flex-row justify-between items-center border-t border-[#1515170F] pb-6 sm:pb-10'>
+          <div className='max-w-full md:max-w-[372px] flex flex-col text-center md:text-left p-4 sm:p-6 md:p-10'>
+            <div className='text-[rgba(0,67,89,1)] leading-tight font-medium text-lg sm:text-xl md:text-[21px] flex items-center gap-2 justify-center md:justify-start'>
               <Image
                 src='/icon-people.svg'
-                alt='Frame'
+                alt='Icon'
                 width={16}
                 height={16}
                 priority
               />
               <h2>Seamless collaboration.</h2>
             </div>
-            <p className='text-[rgba(6,30,38,0.64)] leading-[24px] font-normal text-[14px]'>
+            <p className='text-[rgba(6,30,38,0.64)] leading-normal font-normal text-sm sm:text-base md:text-[14px] mt-2'>
               Work with co-authors and research assistants in real-time from
               anywhere.
             </p>
           </div>
 
-          <div>
+          <div className='mt-4 md:mt-0'>
             <Image
               src='/static/frames/frame-7.png'
-              alt='Frame'
+              alt='Seamless collaboration'
               width={532}
               height={522}
               priority
+              className='max-w-full h-auto'
             />
           </div>
         </div>
