@@ -35,8 +35,8 @@ export const TitleHeader = ({
   title: string;
   subTitle: string;
 }) => (
-  <div className='flex flex-col items-center justify-center text-center mb-10 px-20 2xl:px-68'>
-    <h1 className='font-medium text-[44px] leading-[48px] text-[rgba(21,21,23,1)]'>
+  <div className='flex flex-col items-center justify-center text-center mb-10 px-20 lg:px-68 2xl:px-68'>
+    <h1 className='font-bold text-[44px] leading-[48px] text-[rgba(21,21,23,1)]'>
       {title}
     </h1>
     <p className='w-full max-w-[500px] font-normal text-[17px] text-[rgba(21,21,23,0.64)] leading-[27px] mt-4 '>
@@ -198,7 +198,7 @@ export default function Features() {
             <div className='max-w-[350px] '>
               <div className='text-[rgba(0,67,89,1)] leading-[31px] font-medium text-[21px] flex gap-2 items-center '>
                 <Image
-                  src='/static/icon-insight.svg'
+                  src='/static/icon-wand.svg'
                   alt='Icon'
                   width={16}
                   height={16}
