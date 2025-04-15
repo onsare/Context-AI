@@ -1,16 +1,39 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'FontSuisse';
+  src: url('/fonts/font-suisse.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FontSignifier';
+  src: url('/fonts/font-signifier/TestSignifier-Medium-BF663d8462c7c04.otf') format('opentype');
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FontSignifier';
+  src: url('/fonts/font-signifier/TestSignifier-Regular-BF663d8462c4c0b.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
-@theme inline {
+/* @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
+} */
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -22,5 +45,33 @@
 body {
   /* background: var(--background); */
   /* color: var(--foreground); */
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'FontSuisse', 'FontSignifier', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: 'FontSignifier', Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: 'FontSuisse', Arial, Helvetica, sans-serif;
+}
+
+
+
+@keyframes scroll {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -100%;
+  }
+}
+
+@layer utilities {
+  .animate {
+    animation: scroll 15s linear infinite;
+  }
+
+
 }

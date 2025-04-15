@@ -1,13 +1,16 @@
-import Header from "./components/Header";
-import Hero from "./components/Hero";
+import CallToAction from "@/components/CallToAction";
+import Features from "@/components/Features";
+
+import Hero from "@/components/Hero";
+import InfiniteSlider from "@/components/InfiniteSlider";
 
 export default function Home() {
   return (
     <>
-      <Header />
-      <main className='bg-[#032739] '>
-        <Hero />
-      </main>
+      <Hero />
+      <InfiniteSlider />
+      <Features />
+      <CallToAction />
     </>
   );
 }
