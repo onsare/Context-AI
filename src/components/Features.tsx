@@ -198,7 +198,7 @@ export default function Features() {
             <div className='max-w-[350px] '>
               <div className='text-[rgba(0,67,89,1)] leading-[31px] font-medium text-[21px] flex gap-2 items-center '>
                 <Image
-                  src='/static/icon-wand.svg'
+                  src='/static/icon-insight.svg'
                   alt='Icon'
                   width={16}
                   height={16}
