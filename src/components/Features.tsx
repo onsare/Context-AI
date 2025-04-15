@@ -48,7 +48,12 @@ export const TitleHeader = ({
 export const StatsSection = () => (
   <section className='grid grid-cols-2 lg:flex justify-between items-left gap-5 px-5  mt-10 '>
     {stats.map((item) => (
-      <div key={item.number} className=' border-r border-[#1515170F]'>
+      <div
+        key={item.number}
+        className={` ${
+          item.number === "4x" ? "" : "border-r"
+        } border-[#1515170F]`}
+      >
         <div className='h-[160px]'>
           <h1 className='font-medium text-[44px] leading-[52px] tracking-[-1%]'>
             {item.number}
